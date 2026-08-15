@@ -11,6 +11,16 @@
           "ClassIsland.Core": "2.1.0.1"
         }
       },
+      "System.Text.Json": {
+        "type": "Direct",
+        "requested": "[9.0.19, )",
+        "resolved": "9.0.19",
+        "contentHash": "DjVVcIY/dS/rjb0b42nciHjUc0voQfUtrTos+wC0sgdx0VemTpYhx1jdeHowwFghygJ6QdaytcMHwA8jZ6MHFg==",
+        "dependencies": {
+          "System.IO.Pipelines": "9.0.19",
+          "System.Text.Encodings.Web": "9.0.19"
+        }
+      },
       "AsyncImageLoader.Avalonia": {
         "type": "Transitive",
         "resolved": "3.3.0",
@@ -898,8 +908,8 @@
       },
       "System.IO.Pipelines": {
         "type": "Transitive",
-        "resolved": "9.0.2",
-        "contentHash": "UIBaK7c/A3FyQxmX/747xw4rCUkm1BhNiVU617U5jweNJssNjLJkPUGhBsrlDG0BpKWCYKsncD+Kqpy4KmvZZQ=="
+        "resolved": "9.0.19",
+        "contentHash": "DzFLnKt9CGM8fQ7v92hHHrS+1HhbqDhVw5ju8ZoPY6zONPpVTx7lpxdka7FezO2ivlpSF9blo27IDGjC3sPibg=="
       },
       "System.Memory": {
         "type": "Transitive",
@@ -983,17 +993,8 @@
       },
       "System.Text.Encodings.Web": {
         "type": "Transitive",
-        "resolved": "9.0.2",
-        "contentHash": "/kCGdrXg0PXrvkHYyHubXJHcmCAvJrxTZ7g4XS6UCxY1JW79aMjtUW6UYNECHJmiyFZsZ/vUuWOM4CtNpiNt8Q=="
-      },
-      "System.Text.Json": {
-        "type": "Transitive",
-        "resolved": "9.0.2",
-        "contentHash": "4TY2Yokh5Xp8XHFhsY9y84yokS7B0rhkaZCXuRiKppIiKwPVH4lVSFD9EEFzRpXdBM5ZeZXD43tc2vB6njEwwQ==",
-        "dependencies": {
-          "System.IO.Pipelines": "9.0.2",
-          "System.Text.Encodings.Web": "9.0.2"
-        }
+        "resolved": "9.0.19",
+        "contentHash": "IfQdKDo8uQ1G0Jfd5lBYjsWoSV1Hq7joOD86B4zgUBPus/M/4ytHbq7OjgUrBrJcDOHDlFnjtuBbMMb6y24kLA=="
       },
       "System.Threading": {
         "type": "Transitive",
